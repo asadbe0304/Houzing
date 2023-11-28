@@ -1,0 +1,6 @@
+export {default as Main} from "./Main"
+export {default as Contact} from "./Contact"
+export {default as Login} from "./Login"
+export {default as Properties} from "./Properties"
+export {default as Sign} from "./Sign"
+export {default as Favourite} from "./Favourites"
