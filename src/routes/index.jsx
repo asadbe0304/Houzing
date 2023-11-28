@@ -1,4 +1,4 @@
-import { Login, Main, Contact } from "../pages";
+import { Login, Main, Contact, Sign } from "../pages";
 import { Route, Routes } from "react-router-dom";
 
 const index = () => {
