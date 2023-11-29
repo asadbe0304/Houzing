@@ -1,0 +1,11 @@
+.btn {
+  border-radius: 2px;
+  border: 1px solid #fff;
+  padding: 12px 40px;
+  color: #fff;
+}
+@media screen and (max-width:680px) {
+  .btn{
+    padding: 8px 30px;
+  }
+}

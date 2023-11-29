@@ -3,7 +3,7 @@ import "./index.scss"
 const NavList = () => {
   return (
     <>
-      <ul className="flex items-center gap-4">
+      <ul className="xl:flex hidden md:flex md:flex-row  xl:items-center 2xl:flex lg:flex lg:items-center lg:flex-row xl:flex-row 2xl:flex-row   gap-4">
         <li>
           <NavLink to={"/home"} className={"header__nav--link"}>
             Home

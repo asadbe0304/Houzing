@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ImLocation2 } from "react-icons/im";
+import Logos from "../../assets/icon/logo.svg";
 
 const Logo = () => {
   return (
@@ -8,8 +8,7 @@ const Logo = () => {
         to="/"
         className="flex items-center justify-between gap-3 text-white"
       >
-        <ImLocation2 />
-        <h2 className="text-white">Houzing</h2>
+        <img src={Logos} alt="company logo" className="w-24"/>
       </Link>
     </>
   );
