@@ -1,10 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+:root{
+ --color-2: #0D263B;
+ --color-3: ##F6F8F9;
+ --text-1: #0D263B;
+ --text-2: #FFF;
+ --bg: #F5F7FC;
+}
 body{
   margin: 0;
   padding: 0;
+}
+.container{
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 1440px;
 }
