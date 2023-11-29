@@ -6,12 +6,14 @@ const index = () => {
   return (
     <>
       <Header />
+    
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/properties" element={<Properties />} />
         <Route path="/login" element={<Login />} />
       </Routes>
+   
     </>
   );
 };
