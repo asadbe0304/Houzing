@@ -16,7 +16,7 @@ const index = () => {
         // contrastText: will be calculated to contrast with palette.primary.main
       },
       secondary: {
-        main: '#E0C2FF',
+        main: '#0D263B',
         light: '#F5EBFF',
         // dark: will be calculated from palette.secondary.main,
         contrastText: '#47008F',
@@ -25,7 +25,7 @@ const index = () => {
   });
   return (
     <>
-      <Box sx={{ flexGrow: 1 }} color={theme.palette.primary}>
+      <Box sx={{ flexGrow: 1 }} color={theme.palette.primary.main}>
         <AppBar position="static">
           <Toolbar>
             <IconButton
