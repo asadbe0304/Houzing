@@ -576,16 +576,12 @@ video {
   display: none;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
 .w-24 {
   width: 6rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .items-center {
@@ -652,16 +648,6 @@ body{
 
 .hover\:opacity-80:hover {
   opacity: 0.8;
-}
-
-@media (min-width: 640px) {
-  .sm\:hidden {
-    display: none;
-  }
-
-  .sm\:w-12 {
-    width: 3rem;
-  }
 }
 
 @media (min-width: 768px) {
