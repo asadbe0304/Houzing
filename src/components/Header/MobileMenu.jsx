@@ -23,17 +23,21 @@ const MobileMenu = () => {
         />
         <ul className="flex flex-col w-full h-full items-center justify-center">
           <li>
-            <NavLink to={"/home"} className={"header__nav"}>
+            <NavLink to={"/home"} onClick={hides} className={"header__nav"}>
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink to={"/properties"} className={"header__nav"}>
+            <NavLink
+              to={"/properties"}
+              onClick={hides}
+              className={"header__nav"}
+            >
               Properties
             </NavLink>
           </li>
           <li>
-            <NavLink to={"/contact"} className={"header__nav"}>
+            <NavLink to={"/contact"} onClick={hides} className={"header__nav"}>
               Contact
             </NavLink>
           </li>
