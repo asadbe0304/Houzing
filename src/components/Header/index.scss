@@ -9,3 +9,34 @@ header {
   line-height: 24px; /* 150% */
 }
 
+.header__nav {
+  margin-top: 10px;
+  color: #0d263b;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+}
+.show{
+  display: none;
+}
+.hide{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .show {
+    display: flex;
+    animation: shows 0.35s ease-out;
+  }
+  .hide {
+    display: none;
+  }
+}
+@keyframes shows {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

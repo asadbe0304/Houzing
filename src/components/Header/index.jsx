@@ -1,6 +1,7 @@
 import Hamburger from "./Hamburger";
 import LoginBtn from "./LoginBtn";
 import Logo from "./Logo";
+import MobileMenu from "./MobileMenu";
 import NavList from "./NavList";
 import "./index.scss";
 const index = () => {
@@ -16,6 +17,7 @@ const index = () => {
             <Logo />
             <NavList />
             <LoginBtn />
+            <MobileMenu />
           </div>
         </div>
       </header>
