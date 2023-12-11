@@ -2,7 +2,7 @@
 const index = () => {
   return (
     <div>
-      Properties
+      Hojiakbar
     </div>
   );
 };
