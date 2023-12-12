@@ -780,10 +780,6 @@ body{
     display: none;
   }
 
-  .lg\:w-1\/2 {
-    width: 50%;
-  }
-
   .lg\:w-full {
     width: 100%;
   }
@@ -814,10 +810,6 @@ body{
     width: 50%;
   }
 
-  .xl\:w-full {
-    width: 100%;
-  }
-
   .xl\:flex-row {
     flex-direction: row;
   }
@@ -842,10 +834,6 @@ body{
 
   .\32xl\:w-1\/2 {
     width: 50%;
-  }
-
-  .\32xl\:w-full {
-    width: 100%;
   }
 
   .\32xl\:flex-row {
