@@ -1,8 +1,9 @@
-
+import Properties from "./properties";
 const index = () => {
+ 
   return (
-    <div>
-      Hojiakbar
+    <div  className="container"> 
+ <Properties/>
     </div>
   );
 };
