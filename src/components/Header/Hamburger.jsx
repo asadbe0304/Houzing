@@ -8,6 +8,7 @@ const Hamburger = () => {
   const open = () => {
     dispatch({ type: "MENU", payload: true });
   };
+  console.log(menu);
   return (
     <>
       <img

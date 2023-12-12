@@ -1,9 +1,8 @@
 import Properties from "./properties";
 const index = () => {
- 
   return (
-    <div  className="container"> 
- <Properties/>
+    <div className="container">
+      <Properties />
     </div>
   );
 };

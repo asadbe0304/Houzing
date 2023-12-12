@@ -7,12 +7,12 @@ const index = () => {
     <>
       <Header />
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/properties" element={<Properties />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/properties" element={<Properties />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
     </>
   );
 };

@@ -121,8 +121,10 @@ strong {
 }
 
 /*
-1. Use the user's configured `mono` font family by default.
-2. Correct the odd `em` font sizing in all browsers.
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
 */
 
 code,
@@ -131,8 +133,12 @@ samp,
 pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   /* 1 */
-  font-size: 1em;
+  font-feature-settings: normal;
   /* 2 */
+  font-variation-settings: normal;
+  /* 3 */
+  font-size: 1em;
+  /* 4 */
 }
 
 /*
@@ -592,8 +598,43 @@ video {
   top: 1.25rem;
 }
 
+.top-1 {
+  top: 0.25rem;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.right-1\/2 {
+  right: 50%;
+}
+
+.left-36 {
+  left: 9rem;
+}
+
 .z-10 {
   z-index: 10;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mb-20 {
@@ -602,6 +643,10 @@ video {
 
 .mt-3 {
   margin-top: 0.75rem;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -640,8 +685,16 @@ video {
   flex-wrap: wrap;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -765,6 +818,10 @@ body{
   .sm\:flex-wrap {
     flex-wrap: wrap;
   }
+
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 768px) {
@@ -790,6 +847,10 @@ body{
 
   .md\:flex-wrap {
     flex-wrap: wrap;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 }
 
@@ -817,6 +878,10 @@ body{
   .lg\:items-center {
     align-items: center;
   }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -843,6 +908,10 @@ body{
   .xl\:items-center {
     align-items: center;
   }
+
+  .xl\:justify-between {
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -864,5 +933,9 @@ body{
 
   .\32xl\:flex-nowrap {
     flex-wrap: nowrap;
+  }
+
+  .\32xl\:justify-between {
+    justify-content: space-between;
   }
 }
