@@ -1,11 +1,17 @@
 .btn {
   border-radius: 2px;
-  border: 1px solid #fff;
+  border: 1px solid ;
   padding: 12px 40px;
-  color: #fff;
+  font-size: 100%;
+  font-weight: normal;
+  line-height: normal;
 }
-@media screen and (max-width:680px) {
-  .btn{
+input{
+  font-weight: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 680px) {
+  .btn {
     padding: 8px 30px;
   }
 }
