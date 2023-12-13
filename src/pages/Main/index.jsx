@@ -2,6 +2,7 @@
 import Slider from "react-slick";
 import "./index.scss";
 import Img from "./../../../public/images/hero.png";
+import Img2 from "./../../../public/images/main.png";
 const index = () => {
   const settings = {
     dots: true,
@@ -15,11 +16,20 @@ const index = () => {
   };
   return (
     <>
-      <div className="main w-full my-2">
-        <Slider {...settings} className="w-full">
+      <div className="main w-full flex items-center justify-center my-2">
+        <Slider {...settings} className="w-full flex items-center justify-center">
           <div className="w-full flex items-center justify-center">
             <img src={Img} className="cover" alt="images" />
-            <div className="hero-card absolute top-1/2  z-10 flex-col flex items-center justify-between gap-2">
+            <div className="hero-card mx-auto absolute top-1/2  z-10 flex-col flex items-center justify-between gap-2">
+              <h2 className="text-white ">Skyper Pool Partment</h2>
+              <p className="text-white">
+                112 Glenwood Ave Hyde Park, Boston, MA
+              </p>
+            </div>
+          </div>
+          <div className="w-full">
+            <img src={Img2} className="cover" alt="images" />
+            <div className="hero-card mx-auto absolute top-1/2 z-10 flex-col flex items-center justify-between gap-2">
               <h2 className="text-white ">Skyper Pool Partment</h2>
               <p className="text-white">
                 112 Glenwood Ave Hyde Park, Boston, MA
@@ -28,16 +38,7 @@ const index = () => {
           </div>
           <div className="w-full">
             <img src={Img} className="cover" alt="images" />
-            <div className="hero-card absolute top-1/2 z-10 flex-col flex items-center justify-between gap-2">
-              <h2 className="text-white ">Skyper Pool Partment</h2>
-              <p className="text-white">
-                112 Glenwood Ave Hyde Park, Boston, MA
-              </p>
-            </div>
-          </div>
-          <div className="w-full">
-            <img src={Img} className="cover" alt="images" />
-            <div className="hero-card absolute top-1/2  z-10 flex-col flex items-center justify-between gap-2">
+            <div className="hero-card mx-auto absolute top-1/2  z-10 flex-col flex items-center justify-between gap-2">
               <h2 className="text-white ">Skyper Pool Partment</h2>
               <p className="text-white">
                 112 Glenwood Ave Hyde Park, Boston, MA

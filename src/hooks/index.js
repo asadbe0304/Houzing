@@ -1,11 +1,8 @@
-import React from 'react'
+import { useContext, } from "react";
+import { ContextProvider } from "../context/context";
 
-const index = () => {
-  return (
-    <div>
-      hook
-    </div>
-  )
-}
 
-export default index
+
+export const useCustom = () => {
+  return useContext(ContextProvider);
+};
