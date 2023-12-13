@@ -52,6 +52,3 @@ const index = () => {
 };
 
 export default index;
-{
-  /* <button type="button" data-role="none" class="slick-arrow" style="display: block;"></button> */
-}
