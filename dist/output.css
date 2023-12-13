@@ -598,6 +598,10 @@ video {
   top: 0px;
 }
 
+.top-1\/2 {
+  top: 50%;
+}
+
 .top-5 {
   top: 1.25rem;
 }
@@ -614,12 +618,26 @@ video {
   z-index: 10;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mb-20 {
   margin-bottom: 5rem;
 }
 
 .mt-3 {
   margin-top: 0.75rem;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -650,10 +668,13 @@ video {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .w-96 {
   width: 24rem;
 }
 
+=======
+>>>>>>> refs/remotes/origin/main
 .flex-col {
   flex-direction: column;
 }
@@ -696,10 +717,6 @@ video {
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .rounded-sm {
@@ -748,6 +765,7 @@ video {
   padding: 0.75rem;
 }
 
+<<<<<<< HEAD
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -793,6 +811,8 @@ video {
   padding-bottom: 0.375rem;
 }
 
+=======
+>>>>>>> refs/remotes/origin/main
 .pt-14 {
   padding-top: 3.5rem;
 }
@@ -801,10 +821,13 @@ video {
   padding-top: 1rem;
 }
 
+<<<<<<< HEAD
 .pt-16 {
   padding-top: 4rem;
 }
 
+=======
+>>>>>>> refs/remotes/origin/main
 .text-center {
   text-align: center;
 }
@@ -877,6 +900,10 @@ body{
   .sm\:flex-wrap {
     flex-wrap: wrap;
   }
+
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 768px) {
@@ -902,6 +929,10 @@ body{
 
   .md\:flex-wrap {
     flex-wrap: wrap;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 }
 
@@ -929,6 +960,10 @@ body{
   .lg\:items-center {
     align-items: center;
   }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -955,6 +990,10 @@ body{
   .xl\:items-center {
     align-items: center;
   }
+
+  .xl\:justify-between {
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -976,5 +1015,9 @@ body{
 
   .\32xl\:flex-nowrap {
     flex-wrap: nowrap;
+  }
+
+  .\32xl\:justify-between {
+    justify-content: space-between;
   }
 }

@@ -20,7 +20,7 @@ const index = () => {
                 }
               />
             </div>
-            <div className="w-full sm:w-full sm:flex-wrap 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap md:flex-wrap flex-wrap xl:w-1/2 lg:w-full 2xl:w-1/2 flex  items-center justify-between gap-1">
+            <div className="w-full  sm:w-full sm:flex-wrap 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap md:flex-wrap flex-wrap xl:w-1/2 lg:w-full 2xl:w-1/2 flex  items-center justify-start md:justify-between lg:justify-between xl:justify-between 2xl:justify-between sm:justify-between gap-1">
               <Button
                 text={"Status"}
                 color={"#000"}

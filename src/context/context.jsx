@@ -15,6 +15,7 @@ export const ContextProvider = ({ children }) => {
   );
 };
 
+
 export const useCustom = () => {
   return useContext(Context);
 };

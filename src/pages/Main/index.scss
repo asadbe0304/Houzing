@@ -1,0 +1,64 @@
+.slick-next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+
+  z-index: 4;
+}
+.slick-next::before {
+  color: #fff;
+}
+.slick-prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 4;
+}
+.slick-prev::before {
+  color: #fff;
+}
+.slick-dots {
+  position: absolute;
+  z-index: 4;
+  bottom: 40px;
+
+  li {
+    button::before {
+      color: #fff;
+    }
+  }
+}
+.slick-active {
+  li {
+    button:before {
+      font-size: 10px;
+      line-height: 20px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 20px;
+      height: 20px;
+      content: "•";
+      text-align: center;
+      opacity: 1;
+      color: #fff !important;
+    }
+  }
+}
+
+.hero-card {
+  h2 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 48px; /* 109.091% */
+    letter-spacing: -0.88px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+}
+.cover{
+  width: 100%;
+}

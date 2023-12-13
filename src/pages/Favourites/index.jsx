@@ -2,9 +2,9 @@
 
 const index = () => {
   return (
-    <div>
+    <>
       Favourite
-    </div>
+    </>
   );
 };
 

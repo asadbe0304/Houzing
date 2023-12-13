@@ -5,9 +5,11 @@ const Hamburger = () => {
     state: { menu },
     dispatch,
   } = useCustom();
+  console.log(menu);
   const open = () => {
     dispatch({ type: "MENU", payload: true });
   };
+  console.log(menu);
   return (
     <>
       <img

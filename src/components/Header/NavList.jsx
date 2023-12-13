@@ -5,7 +5,7 @@ const NavList = () => {
     <>
       <ul className="xl:flex hidden md:flex md:flex-row  xl:items-center 2xl:flex lg:flex lg:items-center lg:flex-row xl:flex-row 2xl:flex-row   gap-4">
         <li>
-          <NavLink to={"/home"} className={"header__nav--link"}>
+          <NavLink to={"/"} className={"header__nav--link"}>
             Home
           </NavLink>
         </li>
