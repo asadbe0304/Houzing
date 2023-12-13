@@ -1,7 +1,7 @@
 import Properties from "./Properties";
-import Card from 'Card.jsx'
+import Card from './Card.jsx'
 const index = () => {
- 
+
   return (
     <div  className="container"> 
  <Properties/>
