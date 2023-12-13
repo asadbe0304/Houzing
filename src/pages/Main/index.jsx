@@ -19,7 +19,7 @@ const index = () => {
       <div className="main w-full flex items-center justify-center my-2">
         <Slider {...settings} className="w-full flex items-center justify-center">
           <div className="w-full flex items-center justify-center">
-            <img src={Img} className="cover" width={'1440px'} height={'571px'} alt="images" />
+            <img src={Img} className="w-full" width={'1440px'}    alt="images" />
             <div className="hero-card mx-auto absolute top-1/2  z-10 flex-col flex items-center justify-between gap-2">
               <h2 className="text-white ">Skyper Pool Partment</h2>
               <p className="text-white">
@@ -28,7 +28,7 @@ const index = () => {
             </div>
           </div>
           <div className="w-full">
-            <img src={Img2} className="cover" width={'1440px'} height={'571px'} alt="images" />
+            <img src={Img2} className="w-full" width={'1440px'}   alt="images" />
             <div className="hero-card mx-auto absolute top-1/2 z-10 flex-col flex items-center justify-between gap-2">
               <h2 className="text-white ">Skyper Pool Partment</h2>
               <p className="text-white">
@@ -37,7 +37,7 @@ const index = () => {
             </div>
           </div>
           <div className="w-full">
-            <img src={Img} className="cover" width={'1440px'} height={'571px'} alt="images" />
+            <img src={Img} className="w-full" width={'1440px'}    alt="images" />
             <div className="hero-card mx-auto absolute top-1/2  z-10 flex-col flex items-center justify-between gap-2">
               <h2 className="text-white ">Skyper Pool Partment</h2>
               <p className="text-white">

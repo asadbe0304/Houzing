@@ -1,4 +1,3 @@
-import React from 'react'
 import house from "./images/images.png";
 
 const Card = ({array}) => {
