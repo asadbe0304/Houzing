@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import house from "./images/images.png";
 
 
