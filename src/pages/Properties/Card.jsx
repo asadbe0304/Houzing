@@ -13,7 +13,7 @@ import size from '../../assets/icon/resize 1.svg'
 import like from '../../assets/icon/3.svg'
 const Card = ({ array }) => {
   return (
-    <div className="flex justify-between flex-wrap gap-10">
+    <div className="flex justify-between flex-wrap gap-10 mt-3">
       {array.map((x) => {
         return ( 
           // card design 
