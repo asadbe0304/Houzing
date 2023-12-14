@@ -1,8 +1,4 @@
-
-import house from "./images/images.png";
-
-
-import React from "react";
+ import React from "react";
 import house from "./images/images.png";
 import ellips from "./images/Ellipse 11.png";
 import beds from "../../assets/icon/bed.svg"
@@ -13,7 +9,7 @@ import size from '../../assets/icon/resize 1.svg'
 import like from '../../assets/icon/3.svg'
 const Card = ({ array }) => {
   return (
-    <div className="flex justify-between flex-wrap gap-10 mt-3">
+    <div className=" sm flex justify-between flex-wrap gap-10 mt-3">
       {array.map((x) => {
         return ( 
           // card design 
